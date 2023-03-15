@@ -1,0 +1,25 @@
+﻿@model ContactUs
+@{
+    ViewData["Title"] = "ReadContactUs";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>ReadContactUs</h1>
+<form class="form-group">
+    <label>Gönderen Kişi </label>
+    <input class="form-control" type="text" asp-for="Name" disabled />
+    <br />
+    <label>Gönderen Kişinin Mail Adresi </label>
+    <input class="form-control" type="text" asp-for="Mail" disabled />
+    <br />
+    <label>Mesajın Konu Başlığı </label>
+    <input class="form-control" type="text" asp-for="Subject" disabled />
+    <br />
+    <label>Mesaj</label>
+    <textarea class="form-control" asp-for="MessageBody" disabled cols="50" rows="4"></textarea>
+    <br />
+    <label>Gönderim Tarihi</label>
+    <input class="form-control" type="date" asp-for="MessageDate" disabled />
+    <br />
+    <a href="/Admin/AdminContactUs/Index/" class="btn btn-primary">Mesajlara Geri Dön</a>
+</form>

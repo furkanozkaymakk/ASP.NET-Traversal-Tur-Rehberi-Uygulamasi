@@ -1,0 +1,26 @@
+﻿@using DTOLayer.DTOs.RoleDTOs;
+@model List<RoleGroupDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Roller Tablosu</h1>
+
+<table class="table">
+    <tr>
+        <th>#</th>
+        <th>Kullanıcı</th>
+        <th>Rolü</th>
+        <th>Rol Değiştir</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserID</td>
+            <td>@item.UserName</td>
+            <td>@item.Role</td>
+            <td><a class="btn btn-outline-info" href="/Admin/AdminRole/UpdateRole/@item.UserID">Rol Değiştir</a></td>
+        </tr>
+    }
+</table>

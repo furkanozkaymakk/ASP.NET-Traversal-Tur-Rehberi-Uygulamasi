@@ -1,0 +1,24 @@
+﻿@model Comment
+@{
+    ViewData["Title"] = "UpdateUserComment";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Kullanıcının Yorumunu Düzenleme</h1>
+
+
+<form method="post" class="form-control">
+    @Html.HiddenFor(x=>x.AppUserID)
+    @Html.HiddenFor(x=>x.CommentID)
+    @Html.HiddenFor(x=>x.CommentState)
+    @Html.HiddenFor(x=>x.DestinationID)
+    @Html.HiddenFor(x=>x.CommentDate)
+    <div class="form-group">
+        <label>Yorum </label>
+        <br />
+        <textarea class="form-control" asp-for="CommentContent" rows="4" cols="50"></textarea>
+    </div>
+    <br />
+
+    <button class="btn btn-outline-primary">Yorumu Güncelle</button>
+</form>

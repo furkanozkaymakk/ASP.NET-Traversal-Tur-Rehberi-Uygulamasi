@@ -1,0 +1,54 @@
+﻿@model Travelsal.NetCoreProject.Models.UserRegisterViewModel
+
+@{
+    ViewData["Title"] = "AddUser";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Kullanıcı Ekle</h1>
+
+<form method="post" class="form-control">
+    <div class="form-group">
+        <label>Adı : </label>
+        <input type="text" asp-for="Name" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Soyadı : </label>
+        <input type="text" asp-for="Surname" required />
+        <span asp-validation-for="Surname" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Kullanıcı Adı : </label>
+        <input type="text" asp-for="Username" required />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Mail Adresi : </label>
+        <input type="email" asp-for="Mail" required />
+        <span asp-validation-for="Mail" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Şifre : </label>
+        <input type="password" asp-for="Password" required />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Şifre Tekrarı : </label>
+        <input type="password" asp-for="ConfirmPassword" required />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+    <br />
+
+    <button class="btn btn-outline-primary">Kullanıcı Ekle</button>
+</form>

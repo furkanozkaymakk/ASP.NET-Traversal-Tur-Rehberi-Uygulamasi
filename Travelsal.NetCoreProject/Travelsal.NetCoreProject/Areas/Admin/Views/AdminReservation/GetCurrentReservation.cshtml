@@ -1,0 +1,37 @@
+﻿@model List<Reservation>
+@{
+    ViewData["Title"] = "GetCurrentReservation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Güncel Rezervasyonlar</h1>
+
+
+@if (Model.Count() != 0)
+{
+        <table class="table table-bordered" style="border:2px solid black;border-collapse: collapse;">
+            <tr>
+                <th>Kullanıcı</th>
+                <th>Kişi Sayısı</th>
+                <th>Lokasyon</th>
+                <th>Tarih</th>
+                <th>Açıklama</th>
+                <th>Onaylama</th>
+            </tr>
+        @foreach (var item in Model)
+        {
+                    <tr>
+                        <td>@item.AppUser.UserName</td>
+                        <td>@item.PersonCount</td>
+                        <td>@item.Destination.City</td>
+                        <td>@item.ReservationDate</td>
+                        <td>@item.Desription</td>
+                        <td><a href="/Admin/AdminReservation/ChangeToCancel" class="btn btn-outline-danger">İptal</a></td>
+                    </tr>
+        }
+        </table>
+}
+else
+{
+        <h2>Güncel Rezervasyon Bulunmamaktadır.</h2>
+}

@@ -1,0 +1,12 @@
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\bin\Debug\net6.0\DTOLayer.deps.json
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\bin\Debug\net6.0\DTOLayer.dll
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\bin\Debug\net6.0\DTOLayer.pdb
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.AssemblyReference.cache
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfo.cs
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.dll
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\refint\DTOLayer.dll
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\DTOLayer.pdb
+C:\Users\ozkay\source\repos\Travelsal.NetCoreProject\DTOLayer\obj\Debug\net6.0\ref\DTOLayer.dll

@@ -1,0 +1,34 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Kullanıcılar</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Kullanıcı Adı</th>
+        <th>Adı Soyadı</th>
+        <th>Mail</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+        <th>Yorumlar</th>
+        <th>Rota Geçmişi</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.UserName</td>
+            <td>@item.Name @item.Surname</td>
+            <td>@item.Email</td>
+            <td><a href="/Admin/AdminUser/DeleteUser/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/AdminUser/UpdateUser/@item.Id" class="btn btn-outline-success">Düzenle</a></td>
+            <td><a href="/Admin/AdminUser/UserComment/@item.Id" class="btn btn-outline-primary">Yorumlar</a></td>
+            <td><a href="/Admin/AdminUser/UserReservation/@item.Id" class="btn btn-outline-info">Rotalar</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/AdminUser/AddUser/" class=" btn btn-outline-secondary">Kullanıcı Ekle</a>

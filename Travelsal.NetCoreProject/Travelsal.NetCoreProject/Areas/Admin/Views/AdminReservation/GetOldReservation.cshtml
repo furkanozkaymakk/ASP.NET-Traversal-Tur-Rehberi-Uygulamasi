@@ -1,0 +1,37 @@
+﻿@model List<Reservation>
+@{
+    ViewData["Title"] = "GetOldReservation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Geçmiş Ve İptal Edilen Rezervasyonlar</h1>
+
+
+@if (Model.Count() != 0)
+{
+        <table class="table table-bordered" style="border:2px solid black;border-collapse: collapse;">
+            <tr>
+                <th>Kullanıcı</th>
+                <th>Kişi Sayısı</th>
+                <th>Lokasyon</th>
+                <th>Tarih</th>
+                <th>Açıklama</th>
+                <th>Durum</th>
+            </tr>
+        @foreach (var item in Model)
+        {
+                    <tr>
+                        <td>@item.AppUser.UserName</td>
+                        <td>@item.PersonCount</td>
+                        <td>@item.Destination.City</td>
+                        <td>@item.ReservationDate</td>
+                        <td>@item.Desription</td>
+                        <td>@item.Status</td>
+                    </tr>
+        }
+        </table>
+}
+else
+{
+        <h2>Geçmiş veya İptal edilen Rezervasyon Bulunmamaktadır.</h2>
+}
