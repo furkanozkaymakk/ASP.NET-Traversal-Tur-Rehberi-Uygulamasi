@@ -9,11 +9,11 @@ Rotalar
 
 
 Rotaların İçeriği
-<img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/rotaicerik.png" width="auto">
+<img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/rotaicerik1.png" width="auto">
 
 
 Rotalar Yorum
-<img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/rotayorum.png" width="auto">
+<img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/rotayorum1.png" width="auto">
 
 
 Tur Paketleri
