@@ -8,6 +8,14 @@ Rotalar
 <img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/resim2.png" width="auto">
 
 
+Rotaların İçeriği
+<img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/rotaicerik.png" width="auto">
+
+
+Rotalar Yorum
+<img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/rotayorum.png" width="auto">
+
+
 Tur Paketleri
 <img src="https://github.com/furkanozkaymakk/ASP.NET-Traversal-Tur-Rehberi-Uygulamasi/blob/main/Travelsal.NetCoreProject/images/resim3.png" width="auto">
 
